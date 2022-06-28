@@ -54,7 +54,7 @@
 .newli li {
     font-size: 19px;
     font-weight: 500;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     list-style-type: none;
 }
 .newli svg{
@@ -727,7 +727,7 @@ justify-content: center;
     list-style-type: none;
 }
 .footer-04 li:hover{
-    transition: 0.25s ease-in ease-out;
+    transition: color 300ms ease-in-out;
     color: white;
 }
 .footer-05{
@@ -844,8 +844,6 @@ justify-content: center;
 .footer-13 p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
 @media (max-width:600px) {
     *{
         margin: 0%;
@@ -949,12 +947,9 @@ justify-content: center;
         width: 100vw;
         display: flex;
         height: 350px;
-        /* margin-bottom: 20px; */
         width: 100vw;
         margin-top: -18%;
         margin-left: 0%;
-        /* position: relative;
-        top: -50px; */
     }
     .nav-img img{
          margin-top: 0%;
@@ -1032,12 +1027,10 @@ justify-content: center;
     }
     .section{
         display: flex;
-        /* align-items: center; */
         height: 320px;
     }
     .section-01{
         margin-top: -30%;
-        /* border: 1px solid black; */
     }
     .pep p{
         font-size: 28px;
@@ -1081,7 +1074,7 @@ justify-content: center;
    }
    .fc1{
     display: grid;
-        width: 100%;
+        width: 98%;
         height: 670px;
    }
    .fc02{
@@ -1198,8 +1191,8 @@ letter-spacing: 2px;
    }
    .cmp-logo{
     width: 100%;
-    height: 459px;
-    margin-top: 0%;
+    height: 400px;
+    margin-top: 10%;
    }
    .cmp-logo ul{
     margin-top: -20%;
@@ -1279,7 +1272,7 @@ letter-spacing: 2px;
    }
    .footer{
     width: 100%;
-    height: 1850px;
+    height: 1990px;
     padding: 0%;
    }
    .footer-01{
@@ -1301,7 +1294,7 @@ letter-spacing: 2px;
    .footer-03{
     display: block;
     width: 100%;
-    height: 1280px;
+    height: 1450px;
     margin-left: 0%;
    }
    .footer-04{
@@ -1323,27 +1316,42 @@ letter-spacing: 2px;
     width: 100%;
     height: 40px;
     margin-left: 0%;
+    
    }
    .footer-08 ul{
     display: flex;
     gap: 38px;
    }
-   .footer-logo{
-    display: block;
-    height: 150px;
-   }
-   .footer-logo-01{
-    display: flex;
+   
+   .footer-09{
     width: 100%;
-    align-items: center;
+    margin-left: 0%;
+    height: 780px;
    }
-   .footer-logo-01 ul li{
-    padding: 15px;
+   .footer-10{
+    display: grid;
+   }
+   .footer-11{
+    height: auto;
+    margin-left: 20%;
    }
    .footer-12{
     width: 100%;
     justify-content: space-between;
    }
-   .footer-13{
+   .footer-logo {
+       display: block;
+       height: 105px;
+   }
+
+   .footer-logo-01 {
+       display: flex;
+       width: 100%;
+       height: auto;
+       align-items: center;
+   }
+
+   .footer-logo-01 ul li {
+       padding: 15px;
    }
 }
